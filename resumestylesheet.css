@@ -1,13 +1,15 @@
 body { 
 	font: 14px Helvetica ,Sans-serif;
 	font-weight:lighter;
+	
+}
+
+#container {
 	margin:40px 60px 40px 60px;
 	background-color:  lightgray;
 	padding:0 100px 100px 100px;
 	border-radius:8px;
 }
-
-
 #contact {
 	margin: 0 0 -10px 0;
 	padding: 20px 0 20px 0;
@@ -29,20 +31,20 @@ body {
 	margin: 0 0 0 80px;
 }
 
-#clientlist{
+#clientlist {
 	margin:0 0 0 80px;
 }
 
 
-a{
+a {
 	color:#0088dd;	
 }
 
-a:hover{
+a:hover {
 	border:.5px solid #0088dd;
 }
 
-h1{
+h1 {
 	color: #0088dd;
 	font-size: 30px;
 	font-weight: lighter;
@@ -52,28 +54,19 @@ h1{
 
 
 
-h3{
+h3 {
 	font-weight:bold;
 	font-size:14px;
 	margin-bottom:-15px;
 }
 
-h4{
+h4 {
 	font-weight:lighter;
 	margin-bottom:-15px;
 }
-p.select-volunteer{
-	margin-bottom:-15px;
-}
 
-.examples{
-	width:320px;
-	float:left;
-	margin:0 0 100px 0;
-	height:300;
-}
 
-figure{
+figure {
 	display:block;
 	width:302;
 	height:270;
@@ -82,23 +75,17 @@ figure{
 	text-align: left;
 }
 
-figure img{
-	width:300px;
-	height:300px;
-}
-
-figcaption{
+ 
+figcaption {
 	padding:left;
 }
 
-#experience h2{
+.experience,.images {
 	margin:30px 0 0 0;
 	font-weight:normal;
 	text-transform:uppercase;
 	border-bottom: 1px solid #0088dd;
 }
-
-
 
 
 
